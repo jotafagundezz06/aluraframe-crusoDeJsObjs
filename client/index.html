@@ -60,11 +60,11 @@
     </table>
     <script src="/javascript - backend/aluraframe/client/js/app/models/Negosiacoes.js"></script>
     <script>
-        var n1 = new negosiacoes();
-        console.log(n1);
-
-        var n2 = new negosiacoes();
-        console.log(n2);
+    var n1 = new negosiacoes(new Date(), 5, 700);
+    console.log(n1.quantidade);
+    console.log(n1.data);
+    console.log(n1.valor);
+    console.log(n1.volume);
     </script>
 </body>
 </html>
